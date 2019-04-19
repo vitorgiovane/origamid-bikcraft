@@ -1,4 +1,7 @@
-<?php get_header(); ?>
+<?php
+// Template Name: Products
+get_header();
+?>
 
 <section class="introducao-interna interna_produtos">
 	<div class="container">
@@ -75,7 +78,7 @@
 			<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
 			<input type="text" class="nao-aparece" name="leaveblank">
 			<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-			<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+			<input type="text" class="nao-aparece" name="dontchange" value="http://">
 
 			<label for="mensagem">Especificações</label>
 			<textarea name="mensagem" id="mensagem"></textarea>
